@@ -1,0 +1,420 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.flechazo",
+    "module": "jzxlib",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "recipe_book_categories",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tool_actions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registries",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "lazy_registration",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_builders",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_generators",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_materials",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "networking",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "utility",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jzxlib-0.0.4.jar",
+          "url": "jzxlib-0.0.4.jar",
+          "size": 10347820,
+          "sha512": "ce145bd2e6ebcb7a9987967acf702386a17c2a5fe7361f36548cddd8be7fde6fdf03a408df3426d09170a5d58e222aeaf42a0051988b74d1573089e1d8b9e1a6",
+          "sha256": "707c4244daea757ffc378c1a0ea65080ac4544d2c4d1a36dffd5217d43d84b85",
+          "sha1": "fdaba97e80714e9f73de5135685c3d3c1048a413",
+          "md5": "42172768014ae37bc0cc10ed16892039"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "recipe_book_categories",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tool_actions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registries",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "lazy_registration",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_builders",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_generators",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_materials",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "networking",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "utility",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.13"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.5+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jzxlib-0.0.4.jar",
+          "url": "jzxlib-0.0.4.jar",
+          "size": 10347820,
+          "sha512": "ce145bd2e6ebcb7a9987967acf702386a17c2a5fe7361f36548cddd8be7fde6fdf03a408df3426d09170a5d58e222aeaf42a0051988b74d1573089e1d8b9e1a6",
+          "sha256": "707c4244daea757ffc378c1a0ea65080ac4544d2c4d1a36dffd5217d43d84b85",
+          "sha1": "fdaba97e80714e9f73de5135685c3d3c1048a413",
+          "md5": "42172768014ae37bc0cc10ed16892039"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jzxlib-0.0.4-sources.jar",
+          "url": "jzxlib-0.0.4-sources.jar",
+          "size": 7787,
+          "sha512": "8d469bfdc1a75080e2121bab024f41407858398d60b82159dda06a2b8b45c84d1b492d096eafd8994799aa8be8119dd45a5e12ce6d761f26886ba9e94561ef44",
+          "sha256": "8687550b5ea29944abdb10ac5217bdb5b3ac0641ec401cd55865916e39080b14",
+          "sha1": "e609a00fdfd7a47d84852eed9eaae55e22bd1f3a",
+          "md5": "2f165e64de4cdd57f5c6c899eb6d4bcb"
+        }
+      ]
+    }
+  ]
+}
