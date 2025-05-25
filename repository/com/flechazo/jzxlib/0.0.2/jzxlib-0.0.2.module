@@ -27,11 +27,11 @@
         {
           "name": "jzxlib-0.0.2.jar",
           "url": "jzxlib-0.0.2.jar",
-          "size": 5608,
-          "sha512": "1e03efe091c480583f27d059ba7ebacbdfc3d158a734fc9b9f4644e089ee758bd7f71a6c509863d43e76b48d36d48513e89a090367513fbe53449a4ac9d37681",
-          "sha256": "acaab4ff9388e474b8157c99564e8d931488b2d7257e547808d9dd11ab439c4e",
-          "sha1": "ce19b3cda79ac533367686e21d80e92d4a8e5b6c",
-          "md5": "758d5df2d97364ea67e0f6dc565db921"
+          "size": 10347710,
+          "sha512": "79365cca7e71afb06c2d4c7ad942fab6aea3000acda8522015c42724de4a2c1b771aac3ae2b15a89502b8f21702dae2d45592c2d7d032031339b10a2845fe6b5",
+          "sha256": "d324db324a396ac3e226f43f00b03a6e6d62dc5ac0ea6b8d00f97756e86af071",
+          "sha1": "214aaf9c0fd1a330e7bdebef6ddbda46d70285e1",
+          "md5": "25d04248be997a3d1311d7f5d052ce17"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "net.fabricmc",
           "module": "fabric-loader",
           "version": {
-            "requires": "0.16.0"
+            "requires": "0.16.13"
           }
         },
         {
@@ -58,17 +58,178 @@
           "version": {
             "requires": "0.92.5+1.20.1"
           }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "common",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "items",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "fluids",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "extensions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tags",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "recipe_book_categories",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "entity",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "tool_actions",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "transfer",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "registries",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "lazy_registration",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "data",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_builders",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_generators",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_loader",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "model_materials",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "models",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "networking",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "utility",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "base",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "blocks",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "client_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
+        },
+        {
+          "group": "io.github.fabricators_of_create.Porting-Lib",
+          "module": "level_events",
+          "version": {
+            "requires": "2.3.8+1.20.1"
+          }
         }
       ],
       "files": [
         {
           "name": "jzxlib-0.0.2.jar",
           "url": "jzxlib-0.0.2.jar",
-          "size": 5608,
-          "sha512": "1e03efe091c480583f27d059ba7ebacbdfc3d158a734fc9b9f4644e089ee758bd7f71a6c509863d43e76b48d36d48513e89a090367513fbe53449a4ac9d37681",
-          "sha256": "acaab4ff9388e474b8157c99564e8d931488b2d7257e547808d9dd11ab439c4e",
-          "sha1": "ce19b3cda79ac533367686e21d80e92d4a8e5b6c",
-          "md5": "758d5df2d97364ea67e0f6dc565db921"
+          "size": 10347710,
+          "sha512": "79365cca7e71afb06c2d4c7ad942fab6aea3000acda8522015c42724de4a2c1b771aac3ae2b15a89502b8f21702dae2d45592c2d7d032031339b10a2845fe6b5",
+          "sha256": "d324db324a396ac3e226f43f00b03a6e6d62dc5ac0ea6b8d00f97756e86af071",
+          "sha1": "214aaf9c0fd1a330e7bdebef6ddbda46d70285e1",
+          "md5": "25d04248be997a3d1311d7f5d052ce17"
         }
       ]
     },
@@ -84,11 +245,11 @@
         {
           "name": "jzxlib-0.0.2-sources.jar",
           "url": "jzxlib-0.0.2-sources.jar",
-          "size": 6584,
-          "sha512": "ad89e01b2707806d4b6a9aaf5b67d3c004587a2b4a5b88e725160e108a77f7618b288f7769ac23d0fc2db46ad440de431303f66f189342903f717ad1f5cd9dca",
-          "sha256": "0c4ce41639954103fc06cde19b622d7e3613d622c84690edb5b1cda7f22801e2",
-          "sha1": "9bb57c5b749757043aae4bdb4f10e3b86a6eeae2",
-          "md5": "ba692d4d2d2e7e4fb471770dcfd337aa"
+          "size": 7471,
+          "sha512": "7934aef22d27ef77e5533b4c46dc87866ed598ca7650dbafda9ba1e38f7d678fb319a9345f8cd97b6cfaa0d4dd5c9646e1cc7261a539ac123c2ee66f91d2e1f9",
+          "sha256": "73281fd47083bf7572ba6fbc9f69fd4600301a7c0bed397db2fccf50ad36ff6c",
+          "sha1": "7128df5f427e22dd8d3f0573c6988f93f5ca5f32",
+          "md5": "f24264613c43a22f8de788bcd0bdc240"
         }
       ]
     }
